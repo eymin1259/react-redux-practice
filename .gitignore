@@ -38,6 +38,8 @@ bower_components
 build/Release
 
 # Dependency directories
+react-redux-project/node_modules/
+redux-middleware/node_modules/
 node_modules/
 jspm_packages/
 
