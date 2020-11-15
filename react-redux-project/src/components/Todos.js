@@ -9,7 +9,6 @@ const TodoItem = ({ todo, onToggle, onRemove }) => {
         checked={todo.done}
         readOnly={true}
       />
-
       <span style={{ textDecoration: todo.done ? 'line-through' : 'none' }}>
         {todo.text}
       </span>
